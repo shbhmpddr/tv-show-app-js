@@ -23,8 +23,8 @@ form.addEventListener('submit', function () {
 })
 
 const deleteImgs = () => {
-    const imgs = document.querySelectorAll('img');
-    for(let img of imgs){
+    const images = document.querySelectorAll('img');
+    for(let img of images){
     img.remove();
     }
 }
